@@ -8,7 +8,8 @@ body {
 h1, h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 2
+  line-height: 2;
+  margin-bottom: 18px;
 }
 
 strong {
@@ -21,6 +22,7 @@ strong {
 }
 
 /* Title section */
+
 .title p {
   color: #98A6BD;
 }
@@ -43,7 +45,10 @@ strong {
   color: #E5EFF5;
   background-color: #C0DF34;
 }
-
+.btn:hover {
+  color: #E5EFF5;
+  background-color: #A9C42D;
+}
 /* Features section */
 .Features {
   background-color: #2FC4C2;
