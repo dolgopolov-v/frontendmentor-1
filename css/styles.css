@@ -22,6 +22,9 @@ strong {
 }
 
 /* Title section */
+.title {
+  border-radius: 3% 3% 0 0;
+}
 
 .title p {
   color: #98A6BD;
@@ -34,9 +37,16 @@ strong {
 /* Subsription section */
 .Subsription {
   background-color: #2AB2AF;
+  border-radius: 0 0 0 3%;
 }
 
-.price span {
+@media (max-width: 992px) {
+  .Subsription {
+    border-radius: 0;
+  }
+}
+
+.amount {
   font-size: 2.5rem;
   margin-right: 2%;
 }
@@ -45,21 +55,34 @@ strong {
   color: #E5EFF5;
   background-color: #C0DF34;
 }
+
 .btn:hover {
   color: #E5EFF5;
   background-color: #A9C42D;
 }
+
 /* Features section */
 .Features {
   background-color: #2FC4C2;
+  border-radius: 0 0 3% 0;
+}
+
+@media (max-width: 992px) {
+  .Features {
+    border-radius: 0 0 3% 3%;
+  }
 }
 
 /* Footer */
+.footer-section {
+  margin: 3% auto;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3E52A3;
 }
