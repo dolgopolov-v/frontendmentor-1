@@ -1,0 +1,60 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  color: #E5EFF5;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2
+}
+
+strong {
+  color: #C0DF34;
+  font-weight: 700
+}
+
+.sect {
+  padding: 25px;
+}
+
+/* Title section */
+.title p {
+  color: #98A6BD;
+}
+
+.title h1 {
+  color: #2AB2AF;
+}
+
+/* Subsription section */
+.Subsription {
+  background-color: #2AB2AF;
+}
+
+.price span {
+  font-size: 2.5rem;
+  margin-right: 2%;
+}
+
+.btn {
+  color: #E5EFF5;
+  background-color: #C0DF34;
+}
+
+/* Features section */
+.Features {
+  background-color: #2FC4C2;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
