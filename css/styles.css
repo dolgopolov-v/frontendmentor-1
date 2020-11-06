@@ -21,6 +21,12 @@ strong {
   padding: 25px;
 }
 
+@media (max-width: 992px) {
+  .container {
+    padding: 8%;
+  }
+}
+
 /* Title section */
 .title {
   border-radius: 3% 3% 0 0;
